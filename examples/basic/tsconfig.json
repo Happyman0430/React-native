@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "react-native-video": ["../../src/index"]
+    }
+  },
+  "include": ["src", "**/*.js"],
+  "exclude": ["node_modules"],
+}
